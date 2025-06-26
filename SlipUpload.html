@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>เปิดฟอร์มลงทะเบียน</title>
+  <style>
+    body {
+      font-family: 'Sarabun', sans-serif;
+      text-align: center;
+      padding: 50px;
+      background: #e0f7ff;
+    }
+
+    button {
+      font-size: 18px;
+      padding: 12px 24px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>เปิดฟอร์มอัปโหลดใบเสร็จ</h2>
+  <button onclick="openForm()">เปิดฟอร์ม</button>
+
+  <script>
+    function openForm() {
+      window.open(
+        'https://script.google.com/macros/s/AKfycbwnbOro3gjufucc9EypOZvguVzgOL5k0AE6ChSKNBtNSRv0zNcJimyMTZV7bWWHWrFPSQ/exec',
+        '_blank',
+        'width=700,height=800'
+      );
+    }
+  </script>
+
+</body>
+</html>
